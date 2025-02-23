@@ -26,7 +26,7 @@ st.sidebar.title("🔍Navigation")  # Sidebar title with an emoji
 st.sidebar.markdown("🏡Home Page")
 
 with st.sidebar:
-    st.page_link("weather_analysis.py", label="Weather forecasting information",icon="🌍")
+    st.page_link("pages/weather_analysis.py", label="Weather forecasting information",icon="🌍")
 
 # Function to fetch 5-day weather data
 def get_weather(city):
