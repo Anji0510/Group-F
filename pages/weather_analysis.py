@@ -116,5 +116,5 @@ st.markdown(
 # Sidebar Navigation
 st.sidebar.markdown("---")  # Divider for better structure
 if st.sidebar.button("🏠 Back to Home Page"):
-    st.switch_page("Weatherapp.py")  # Navigates back to main.py 
+    st.switch_page("weatherapp.py")  # Navigates back to main.py 
 
