@@ -155,7 +155,7 @@ st.markdown(
  
 
 # Forecast Section with Icon
-st.title("📅 **5-Day Weather Forecast**")
+st.subheader("📅 **5-Day Weather Forecast**")
 
 if st.button("📊 Get Forecast"):
     if city.strip():
@@ -192,7 +192,7 @@ if st.button("📊 Get Forecast"):
     else:
         st.warning("⚠️ Please enter a valid city name!")
 # Forecast Section with Icon
-st.title("📅 **5-Day Weather Forecast Chart**")
+st.subheader("📅 **5-Day Weather Forecast Chart**")
 
 if st.button("📊 Get Forecast Chart", key="forecast_button"):
     if city.strip():
